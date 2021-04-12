@@ -7,11 +7,15 @@ img {
     display: block;
 }
 
-*,
-html,
 body {
     padding: 0 !important;
     margin: 0 !important;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.done{
+    overflow-y: auto;
 }
 
 .banner {
