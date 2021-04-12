@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+img {
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+*,
+html,
+body {
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow-x: hidden;
+    /* Hide scrollbars */
+}
+
+.banner {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    animation: 3s linear 1s banner both;
+    /*color: #e4e41d;*/
+    font-size: 10vw;
+    text-align: center;
+    padding-top: calc(50vh - 10vw) !important;
+    font-family: 'Pacifico', Arial, Helvetica, sans-serif;
+}
+
+@keyframes banner {
+    0% {
+        color: #080055;
+        background-color: rgba(8, 0, 78, 0.95);
+    }
+    50% {
+        color: #e4e41d;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        color: rgba(228, 228, 10, 0);
+        opacity: 0;
+        display: none;
+    }
+}
